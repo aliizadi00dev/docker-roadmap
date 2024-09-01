@@ -208,7 +208,7 @@ CMD ["python", "app.py"]
 
 </details>
 
-- ##### Reducing Image Size Tips
+##### Reducing Image Size Tips
 
 - <details>
         <summary>Use an appropriate base image</summary>
@@ -218,7 +218,7 @@ CMD ["python", "app.py"]
 FROM node:14-alpine
 ```
 
-</details>
+  </details>
 
 - <details>
       <summary>Run multiple commands in a single `RUN` statement</summary>
@@ -229,7 +229,7 @@ RUN apt-get update && \
       apt-get install -y some-required-package
 ```
 
-   </details>
+  </details>
 
 - <details>
      <summary>Remove unnecessary files in the same layer</summary>
@@ -270,7 +270,7 @@ CMD ["npm", "start"]
     Use a .dockerignore file to exclude unnecessary files from the build context that might cause cache invalidation and increase the final image size.
   `node_modules
   npm-debug.log`
-    </details>
+  </details>
 
 ---
 
@@ -295,3 +295,6 @@ graph LR
   A[Docker CLI] --> B[Docker Engine]
 
 ```
+
+Adding some new as soon...
+Be patient:heart:
