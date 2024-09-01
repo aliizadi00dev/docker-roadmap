@@ -296,5 +296,5 @@ graph LR
 
 ```
 
-Adding some new as soon...
-Be patient:heart:
+Adding some new as soon...  
+Be patient :heart:
