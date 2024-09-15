@@ -1,5 +1,9 @@
 # :flashlight: Docker Roadmap for [Codinto](https://codinto.ir/)
 
+![](/images/free-palestine.png)
+
+---
+
 ### :crystal_ball: Introduction
 
 1. #### What are containers?
